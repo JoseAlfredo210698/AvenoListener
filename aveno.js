@@ -41,7 +41,7 @@ io.on('connection', function (socket) {
   })
 
   socket.on('get', function(data) {
-    console.log('Data: ', data);
+    console.log('Location>>>: ', data);
   });
 
 
